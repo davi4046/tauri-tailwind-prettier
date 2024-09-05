@@ -1,6 +1,6 @@
-# Tauri + Vanilla TS
+# Tauri + Vanilla TS + Tailwind CSS + Prettier
 
-This template should help get you started developing with Tauri in vanilla HTML, CSS and Typescript.
+Boilerplate for Tauri with vanilla TypeScript, Tailwind CSS, and Prettier.
 
 ## Recommended IDE Setup
 
