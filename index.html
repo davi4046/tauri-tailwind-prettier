@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
@@ -8,37 +8,41 @@
         <script type="module" src="/src/main.ts" defer></script>
     </head>
 
-    <body>
-        <div class="container">
-            <h1>Welcome to Tauri!</h1>
+    <body class="h-[100vh] overflow-hidden">
+        <div class="flex flex-col justify-evenly items-center h-full">
+            <h1 class="text-2xl">Welcome to Tauri!</h1>
 
-            <div class="row">
-                <a href="https://vitejs.dev" target="_blank">
+            <div class="flex flex-row gap-8">
+                <a href="https://vitejs.dev" target="_blank" class="w-32 h-32">
                     <img
                         src="/src/assets/vite.svg"
-                        class="logo vite"
                         alt="Vite logo"
+                        class="w-full h-full"
                     />
                 </a>
-                <a href="https://tauri.app" target="_blank">
+                <a href="https://tauri.app" target="_blank" class="w-32 h-32">
                     <img
                         src="/src/assets/tauri.svg"
-                        class="logo tauri"
                         alt="Tauri logo"
+                        class="w-full h-full"
                     />
                 </a>
-                <a href="https://www.typescriptlang.org/docs" target="_blank">
+                <a
+                    href="https://www.typescriptlang.org/docs"
+                    target="_blank"
+                    class="w-32 h-32"
+                >
                     <img
                         src="/src/assets/typescript.svg"
-                        class="logo typescript"
                         alt="typescript logo"
+                        class="w-full h-full"
                     />
                 </a>
             </div>
 
             <p>Click on the Tauri logo to learn more about the framework</p>
 
-            <form class="row" id="greet-form">
+            <form class="flex flex-row" id="greet-form">
                 <input id="greet-input" placeholder="Enter a name..." />
                 <button type="submit">Greet</button>
             </form>
